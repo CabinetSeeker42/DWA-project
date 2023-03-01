@@ -1,7 +1,5 @@
 # Software Guidebook
 
-> gebaseerd op _[reader Software Guidebook](reader-software-guidebook.pdf)_. Tijsma, L. (2015). ICA.
-
 ## Inhoud
 
 1. [Context](01_context.md)
