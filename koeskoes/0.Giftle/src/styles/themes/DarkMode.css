@@ -1,0 +1,124 @@
+body {
+  color: #ffffff;
+}
+
+.bg-light {
+  background-color: #616161 !important;
+}
+
+.text-primary {
+  color: #121212 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-dark {
+  color: #ffffff !important;
+}
+
+.rounded {
+  border: none !important;
+}
+
+.border-primary {
+  border-color: #ffffff !important;
+}
+
+.bg-primary {
+  background-color: #121212 !important;
+}
+
+.btn {
+  transition: none !important;
+}
+
+.btn-primary {
+  color: #ffffff !important;
+  background-color: #121212 !important;
+  border-color: #000000 !important;
+}
+
+.btn-primary:hover {
+  color: #ffffff !important;
+  background-color: #333333 !important;
+  border-color: #000000 !important;
+}
+
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23121212'/%3e%3c/svg%3e");
+}
+
+.form-switch .form-check-input:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e");
+}
+
+.form-control:focus {
+  border-color: #000000 !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:focus,
+.form-select:focus {
+  border-color: none !important;
+  box-shadow: none !important;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary:active,
+.btn-primary:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+input[type="file"] {
+  color: #121212 !important;
+  background-color: #ffffff !important;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #121212;
+  border: 1px;
+  border-color: #000000;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  margin: 1px;
+}
+
+.style-dotted {
+  border-color: #000000 !important;
+  background: #000000 !important;
+}
+
+.colored-background {
+  background-color: #121212 !important;
+}
+
+.progress-bar {
+  background-color: #121212;
+}
+
+.terms-and-conditions {
+  color: #121212 !important;
+}
+
+.nav-link.active {
+  color: #222221 !important;
+}
+
+.nav-link {
+  color: #b4b4b4 !important;
+}
+
+.form-select > option {
+  color: #ffffff !important;
+  background-color: #222221 !important;
+  box-shadow: 0 0 10px 100px #222221 inset !important;
+}

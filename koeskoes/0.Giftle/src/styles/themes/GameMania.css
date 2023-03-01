@@ -1,0 +1,117 @@
+.colored-background {
+  background-color: none !important;
+  background-image: url(../../assets/GameMania-bg-green.png);
+}
+
+.text-primary {
+  color: #39b54a !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.rounded {
+  border: 1px dotted #39b54a !important;
+}
+
+.bg-primary {
+  background-color: #e5c847 !important;
+}
+
+.border-primary {
+  border-color: #39b54a !important;
+}
+
+.btn {
+  transition: none !important;
+}
+
+.btn-primary {
+  color: #686669 !important;
+  background-color: #e5c847 !important;
+  border-color: #686669 !important;
+}
+
+.btn-primary:hover {
+  color: #686669 !important;
+  background-color: #e5c847 !important;
+  border-color: #686669 !important;
+}
+
+.form-switch .form-check-input:focus {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%2339b54a'/%3e%3c/svg%3e");
+}
+
+.form-switch .form-check-input:checked {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23e5c847'/%3e%3c/svg%3e");
+}
+
+.form-control:focus {
+  border-color: #e5c847 !important;
+  box-shadow: none !important;
+}
+
+.form-check-input:focus,
+.form-select:focus {
+  border-color: #e5c847 !important;
+  box-shadow: none !important;
+}
+
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary:active,
+.btn-primary:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: none !important;
+}
+
+.form-check-input:checked {
+  background-color: #39b54a !important;
+  border-color: #e5c847 !important;
+}
+
+input[type="file"] {
+  color: #e5c847 !important;
+  background-color: #39b54a !important;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #e5c847;
+  border: 1px;
+  border-color: #e5c847;
+  border-radius: 0.25rem;
+  color: #686669;
+  margin: 1px;
+}
+
+.style-dotted {
+  border-color: #e5c847 !important;
+  background: #39b54a !important;
+}
+
+.colored-background {
+  background-color: #ffffff !important;
+}
+
+.progress-bar {
+  background-color: #39b54a;
+}
+
+.terms-and-conditions {
+  color: #39b54a !important;
+}
+
+.nav-link.active {
+  color: #222221 !important;
+}
+
+.nav-link {
+  color: #b4b4b4 !important;
+}
+
+.form-select > option {
+  color: #ffffff !important;
+  background-color: #39b54a !important;
+  box-shadow: 0 0 10px 100px #39b54a inset !important;
+}

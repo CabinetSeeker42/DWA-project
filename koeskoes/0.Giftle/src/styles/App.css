@@ -1,0 +1,361 @@
+/* Everything in the body without custom CSS will have these CSS underneath */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Slightly changing the container width on some devices */
+.container {
+  width: 90% !important;
+}
+.container,
+.container-wide,
+.container-flex {
+  transition: 300ms ease;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 55% !important;
+  }
+
+  @media (min-width: 992px) {
+    .container {
+      width: 45% !important;
+    }
+
+    .container-w80{
+      width: 80% !important;
+    }
+
+    @media (min-width: 1400px) {
+      .container {
+        width: 30% !important;
+      }
+      .container-w50{
+        width: 50% !important;
+      }
+      .container-w40 {
+        width: 40% !important;
+      }
+    }
+  }
+}
+
+.video-rem5 {
+  margin-top: 5rem;
+}
+
+.visualizer {
+  display: none;
+}
+
+.item-center {
+  margin: auto 0;
+}
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.colored-background {
+  background-color: #c0c0c0;
+}
+
+/* Custom CSS - CreateVideoPage(/buyer/create) */
+.terms-and-conditions {
+  color: #0d6efd;
+}
+
+.terms-and-conditions:hover {
+  opacity: 0.6;
+}
+
+input[type="file"] {
+  background-color: #575757;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 5px;
+  width: 16rem;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  background-color: #0d6efd;
+  border: 1px;
+  border-color: #0d6efd;
+  border-radius: 0.25rem;
+  color: #fff;
+  margin: 1px;
+}
+
+.progress {
+  margin-top: -20px;
+  margin-bottom: 15px;
+  padding-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+
+.video-player {
+  height: 19.1em;
+}
+
+@media only screen and (max-width: 320px) {
+  input[type="file"] {
+    width: 14rem;
+  }
+
+  .container-flex {
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .form-switch-alignment {
+    margin: auto auto;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .lg-hidden {
+    display: none !important;
+  }
+
+  .md-sm-hidden {
+    display: none !important;
+  }
+
+  .container-wide {
+    width: 90% !important;
+  }
+
+  .container-flex {
+    width: 85vw;
+  }
+
+  .form-switch-alignment {
+    margin: auto 0;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .container-flex {
+    width: 90vw;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .lg-hidden {
+    display: none !important;
+  }
+
+  .form-switch-alignment {
+    margin: auto 0;
+  }
+
+  .container-wide {
+    width: 60% !important;
+  }
+}
+
+.rewatchVideoPlayer {
+  width: 100%;
+}
+
+.btn-round {
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 50%;
+  height: 3.5rem;
+  position: relative;
+  top: -10px;
+  width: 3.5rem;
+}
+
+.btn-round svg {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-record {
+  z-index: 1;
+  margin-top: -100px;
+  margin-bottom: -70px;
+}
+
+.btn-record-right {
+  position: relative;
+  float: right;
+  transform: translateY(127%);
+}
+
+.recording-breathing {
+  background: red;
+  -webkit-animation: breathing 4s ease-out infinite normal;
+  animation: breathing 4s ease-out infinite normal;
+}
+
+@-webkit-keyframes breathing {
+  0% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes breathing {
+  0% {
+    background-color: red;
+  }
+
+  50% {
+    background-color: white;
+  }
+
+  100% {
+    background-color: red;
+  }
+}
+
+/* Custom CSS - ScanQRCode(/receiver/scan) */
+.scanContainer {
+  margin-top: 2em;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.mainBox {
+  height: 35em;
+}
+
+.errorBox {
+  margin-top: 2em;
+}
+
+/* Custom CSS - CheckOutPage(/checkout) */
+.container-fluid {
+  min-height: 52rem;
+  max-width: 90%;
+}
+
+.vertical-col {
+  box-shadow: 0px 0px 6px 2px #888888;
+  min-height: 48rem;
+}
+
+.square {
+  border-radius: 50%;
+  display: inline-block;
+  height: 3rem;
+  width: 3rem;
+}
+
+.square-text {
+  margin-top: 2px;
+  margin-left: 3px;
+}
+
+.style-dotted {
+  border: 0;
+  border-bottom: 0.13rem dashed;
+  border-color: #ccc;
+  background: rgb(0, 0, 0);
+}
+
+/* React Share */
+.shareButtonPlacement {
+  margin-top: 4em;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.popup .popuptext {
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  margin-left: -4em;
+}
+
+.popuptext:before {
+  position: absolute;
+  z-index: 10;
+  content: "";
+  right: calc(65% - 10px);
+  top: 55px;
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: #555 #555 transparent transparent;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.icon-container {
+  display: flex;
+}
+
+.icon {
+  flex-basis: 100px;
+  margin: 5px;
+}
+
+.reactionButton {
+  margin-top: -2em;
+}
+
+#flexSwitchCheckDefault {
+  margin-left: -40px;
+}
+
+.switch-text {
+  font-size: 0.85rem !important;
+  margin-top: 0.4em;
+}
+
+/* Error message helper - input border becomes red */
+.errorInput {
+  border-color: none;
+  box-shadow: none;
+}
+.errorInput:focus {
+  border-color: #ff0000;
+  box-shadow: none;
+}
+
+.loading-text {
+  margin-top: -1em;
+}
+
+.textReactionBox{
+  min-height: 20em;
+  max-width: 30%;
+  margin-right: auto;
+}
