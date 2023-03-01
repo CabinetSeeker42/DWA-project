@@ -2,15 +2,6 @@
 
 > gebaseerd op _[reader Software Guidebook](reader-software-guidebook.pdf)_. Tijsma, L. (2015). ICA.
 
-## Team Koeskoes
-
-| Studenten          | E-mail                        | Student nr. |
-| ------------------ | ----------------------------- | ----------- |
-| Sjoerd de Bruin    | SWL.deBruin@student.han.nl    | 650151      |
-| Sven van Ee        | S.vanEe1@student.han.nl       | 645999      |
-| Jordi Obermeier    | CJA.Obermeier@student.han.nl  | 652615      |
-| Ilse van de Peppel | I.vandePeppel1@student.han.nl | 629494      |
-
 ## Inhoud
 
 1. [Context](01_context.md)
